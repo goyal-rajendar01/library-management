@@ -1,0 +1,25 @@
+{
+  "name": "library-management",
+  "version": "1.0.0",
+  "description": "This is a library managment API Backend for the managment of users and the books",
+  "homepage": "https://github.com/goyal-rajendar01/library-management#readme",
+  "bugs": {
+    "url": "https://github.com/goyal-rajendar01/library-management/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goyal-rajendar01/library-management.git"
+  },
+  "license": "ISC",
+  "author": "Rajendar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
